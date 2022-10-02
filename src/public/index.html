@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/style/style.css">
+    <title>New project</title>
+</head>
+<body>
+    
+    <h1 id="title">this is my new project</h1>
+
+    <div class="contaner_01">
+
+        <h1>squire area</h1>
+
+        <form>
+
+            <label for="sideSquire" id="Label">cuanto miden los lados del cuadrado</label>
+            <input type="number" id="sideSquire">
+
+            <button type="button" id="buttonCalculate" onclick="calculatorAreaSquare()">calculate area of square</button>
+
+            <button type="reset" id="reset">reset</button>
+
+            <p id="resul" class="resut"></p>
+
+       </form> 
+
+    </div>
+
+    <div class="contaner_02">
+
+        <h1>area triangulo</h1>
+
+        <form>
+
+            <label for="base" id="Label">dame los valores de la base y la altura</label>
+            <input type="number" id="base">
+            <input type="number" id="altura">
+
+            <button type="button" id="buttonCalculate" onclick="calcularAreaTriangulo()">calcular area del triangulo</button>
+
+            <button type="reset" id="reset">reset</button>
+
+            <p id="result_02" class="result_02"></p>
+
+        </form>
+        
+    </div>
+
+    <div class="contaner_03">
+
+        <h1>area circulo</h1>
+
+        <form>
+        
+            <label for="radio" id="Label">indique el valor del radio y el valor de PI</label>
+            <input type="number" id="radio">
+            <input type="number" id="pi">
+
+            <button type="button" id="buttonCalculate" onabort="calcularAreaCirculo()">calcular el area del circulo</button>
+
+            <button type="reset" id="reset">reset</button>
+            
+            <p id="result_03" class="result_03"></p>
+        
+        </form>
+
+    </div>
+
+    <script src="../public/js/cuadrado.js"></script>
+    <script src="../public/js/triangulo.js"></script>
+    <script src="../public/js/circulo.js"></script>
+
+</body>
+</html>
