@@ -1,0 +1,48 @@
+/* prueba */
+@media (max-width: 1327px) and (min-width: 1326px) {
+    #title {
+        margin-block-end: 80px;
+    }
+    
+    /* se acomodaran los contenedores uno a lado del otro */
+    .contaner_01, .contaner_02, .contaner_03, h1 {
+        text-align: center;
+        
+    }
+    
+    .contaner_01 {
+        float: left;
+        width: 400px;
+    }
+    
+    .contaner_02 {
+        float: left;
+        width: 400px;
+        margin-left: 50px;
+    }
+    
+    .contaner_03 {
+        float: right;
+        width: 400px;
+    } 
+    
+    /* le pondremos bordes a cada contenedor y posteriormente color y sombras
+    primerp lo hare con un contenedor (para ir probando), posteriormente los estilos
+    los pasare a cada uno de los otros contenemores*/
+    
+    .contaner_01, .contaner_02, .contaner_03 {
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 250px;
+    }
+    
+    /* acomodamos los botones */
+    
+    #buttonCalculate, #reset {
+        border-radius: 50px;
+    }
+    
+    #sideSquire, #base, #altura, #radio, #pi {
+        border-radius: 20px;
+    }
+}
