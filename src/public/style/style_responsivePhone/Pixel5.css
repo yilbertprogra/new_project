@@ -1,3 +1,5 @@
+/* this responisve is for 393px and 851px */
+
 @media (max-width: 394px) and (min-width: 393px) {
 
     body {
@@ -24,6 +26,14 @@
         margin-block-end: 20px;
         width: 300px;
         margin-left: 40px;
+    }
+
+    .contaner_01 {
+        height: 210px;
+    }
+
+    .contaner_02, .contaner_03 {
+        height: 230px;
     }
 
     /* se acomodan los botones */
