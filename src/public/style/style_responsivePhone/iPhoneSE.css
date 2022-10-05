@@ -79,6 +79,11 @@
     .contaner_01 {
         height: 214px;
     }
+
+    .contaner_02, .contaner_03 {
+        height: 235px;
+    }
+
     button{
         border-radius: 80px;
         font-size: 16px;
