@@ -1,3 +1,5 @@
+/* this responsive is for 390px and 844px */
+
 @media (max-width: 391px) and (min-width: 390px) {
 
     body {
@@ -31,7 +33,7 @@
     }
 
     .contaner_02, .contaner_03 {
-        height: 220;
+        height: 255px;
     }
 
     /* se acomodan los botones */
