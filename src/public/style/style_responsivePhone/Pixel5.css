@@ -1,0 +1,108 @@
+@media (max-width: 394px) and (min-width: 393px) {
+
+    body {
+        background-color: rgb(13, 17, 23);
+    }
+
+    #title {
+        margin-block-end: 40px;
+    }
+
+    /* se acomodan los contenedores */
+    .contaner_01, .contaner_02, .contaner_03, #title {
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .contaner_01, .contaner_02, .contaner_03 {
+        float: inline-end;
+        background-color: rgb(128, 128, 128);
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        margin-block-end: 20px;
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    /* se acomodan los botones */
+    
+    button{
+        border-radius: 80px;
+        font-size: 16px;
+        width: 260px;
+        background-color:rgb(13, 17, 23);
+        color:rgb(255, 255, 255)
+    }
+    
+    input {
+        border-radius: 100px;
+        font-size: 10px;
+        width: 250px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    #resul, #result_02, #result_03 {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 852px) and (min-width: 851px) {
+    body {
+        background-color: rgb(13, 17, 23);
+    }
+
+    .contaner_01, .contaner_02, .contaner_03, #title {
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .contaner_01, .contaner_02, .contaner_03 {
+        float: inline-end;
+        background-color: rgb(128, 128, 128);
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        margin-block-end: 10px;
+        width: 480px;
+        margin-left: 200px;
+    }
+
+    .contaner_01 {
+        height: 220px;
+    }
+
+    .contaner_02, .contaner_03 {
+        height: 245px;
+    }
+
+    button{
+        border-radius: 80px;
+        font-size: 16px;
+        width: 250px;
+        background-color:rgb(13, 17, 23);
+        color:rgb(255, 255, 255)
+    }
+    
+    input {
+        border-radius: 100px;
+        font-size: 15px;
+        width: 245px;
+    }
+
+    label {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #resul, #result_02, #result_03 {
+        font-size: 20px;
+    }
+    
+}
